@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Validation from './ValidationComponent/ValidationComponent';
-import Char from './CharComponent/CharComponent';
+import Validation from './Validation/Validation';
+import Char from './Char/Char';
 
 function App() {
   const [inputTextLengthState, setInputTextLengthState] = useState({
